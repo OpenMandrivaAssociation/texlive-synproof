@@ -48,6 +48,7 @@ achieved through "key=value" pairs.
 %doc %{_texmfdistdir}/doc/latex/synproof/README
 %doc %{_texmfdistdir}/doc/latex/synproof/synproof-doc.pdf
 %doc %{_texmfdistdir}/doc/latex/synproof/synproof-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +59,5 @@ achieved through "key=value" pairs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
