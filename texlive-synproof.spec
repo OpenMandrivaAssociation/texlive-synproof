@@ -1,6 +1,6 @@
 Name:		texlive-synproof
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Easy drawing of syntactic proofs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/synproof
