@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Easy drawing of syntactic proofs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/synproof
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/synproof
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/synproof.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/synproof.doc.r%{version}.tar.xz
